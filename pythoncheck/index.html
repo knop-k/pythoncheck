@@ -564,6 +564,57 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#pythoncheck.pythoncheck.Calculator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calculator
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Calculator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pythoncheck.pythoncheck.Calculator.add" class="md-nav__link">
+    <span class="md-ellipsis">
+      add()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pythoncheck.pythoncheck.Calculator.divide" class="md-nav__link">
+    <span class="md-ellipsis">
+      divide()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pythoncheck.pythoncheck.Calculator.multiply" class="md-nav__link">
+    <span class="md-ellipsis">
+      multiply()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pythoncheck.pythoncheck.Calculator.subtract" class="md-nav__link">
+    <span class="md-ellipsis">
+      subtract()
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -636,6 +687,57 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#pythoncheck.pythoncheck.Calculator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Calculator
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Calculator">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pythoncheck.pythoncheck.Calculator.add" class="md-nav__link">
+    <span class="md-ellipsis">
+      add()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pythoncheck.pythoncheck.Calculator.divide" class="md-nav__link">
+    <span class="md-ellipsis">
+      divide()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pythoncheck.pythoncheck.Calculator.multiply" class="md-nav__link">
+    <span class="md-ellipsis">
+      multiply()
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pythoncheck.pythoncheck.Calculator.subtract" class="md-nav__link">
+    <span class="md-ellipsis">
+      subtract()
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -667,6 +769,270 @@
 
       <p>Main module.</p>
 
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+  <div class="doc doc-object doc-class">
+
+
+
+<h2 id="pythoncheck.pythoncheck.Calculator" class="doc doc-heading">
+        <code>
+Calculator        </code>
+
+
+
+<a href="#pythoncheck.pythoncheck.Calculator" class="headerlink" title="Permanent link">&para;</a></h2>
+
+    <div class="doc doc-contents ">
+
+      <p>Prosta klasa reprezentująca kalkulator.</p>
+<p>Metody:
+- add(x, y): Dodaje dwie liczby.
+- subtract(x, y): Odejmuje drugą liczbę od pierwszej.
+- multiply(x, y): Mnoży dwie liczby.
+- divide(x, y): Dzieli pierwszą liczbę przez drugą.</p>
+
+        <details class="quote">
+          <summary>Source code in <code>pythoncheck\pythoncheck.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">class</span> <span class="nc">Calculator</span><span class="p">:</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Prosta klasa reprezentująca kalkulator.</span>
+
+<span class="sd">    Metody:</span>
+<span class="sd">    - add(x, y): Dodaje dwie liczby.</span>
+<span class="sd">    - subtract(x, y): Odejmuje drugą liczbę od pierwszej.</span>
+<span class="sd">    - multiply(x, y): Mnoży dwie liczby.</span>
+<span class="sd">    - divide(x, y): Dzieli pierwszą liczbę przez drugą.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Dodaje dwie liczby.</span>
+
+<span class="sd">        :param x: Pierwsza liczba.</span>
+<span class="sd">        :param y: Druga liczba.</span>
+<span class="sd">        :return: Wynik dodawania.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+
+    <span class="k">def</span> <span class="nf">subtract</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Odejmuje drugą liczbę od pierwszej.</span>
+
+<span class="sd">        :param x: Pierwsza liczba.</span>
+<span class="sd">        :param y: Druga liczba.</span>
+<span class="sd">        :return: Wynik odejmowania.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">x</span> <span class="o">-</span> <span class="n">y</span>
+
+    <span class="k">def</span> <span class="nf">multiply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Mnoży dwie liczby.</span>
+
+<span class="sd">        :param x: Pierwsza liczba.</span>
+<span class="sd">        :param y: Druga liczba.</span>
+<span class="sd">        :return: Wynik mnożenia.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span>
+
+    <span class="k">def</span> <span class="nf">divide</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="w">        </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Dzieli pierwszą liczbę przez drugą.</span>
+
+<span class="sd">        :param x: Liczba dzielona.</span>
+<span class="sd">        :param y: Liczba dzieląca (nie może być zero).</span>
+<span class="sd">        :return: Wynik dzielenia.</span>
+<span class="sd">        :raise ValueError: Wyjątek w przypadku próby dzielenia przez zero.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="n">y</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Nie można dzielić przez zero.&quot;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">x</span> <span class="o">/</span> <span class="n">y</span>
+</code></pre></div>
+        </details>
+
+
+
+  <div class="doc doc-children">
+
+
+
+
+
+
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="pythoncheck.pythoncheck.Calculator.add" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">add</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span></code>
+
+
+<a href="#pythoncheck.pythoncheck.Calculator.add" class="headerlink" title="Permanent link">&para;</a></h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Dodaje dwie liczby.</p>
+<p>:param x: Pierwsza liczba.
+:param y: Druga liczba.
+:return: Wynik dodawania.</p>
+
+        <details class="quote">
+          <summary>Source code in <code>pythoncheck\pythoncheck.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Dodaje dwie liczby.</span>
+
+<span class="sd">    :param x: Pierwsza liczba.</span>
+<span class="sd">    :param y: Druga liczba.</span>
+<span class="sd">    :return: Wynik dodawania.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="pythoncheck.pythoncheck.Calculator.divide" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">divide</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span></code>
+
+
+<a href="#pythoncheck.pythoncheck.Calculator.divide" class="headerlink" title="Permanent link">&para;</a></h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Dzieli pierwszą liczbę przez drugą.</p>
+<p>:param x: Liczba dzielona.
+:param y: Liczba dzieląca (nie może być zero).
+:return: Wynik dzielenia.
+:raise ValueError: Wyjątek w przypadku próby dzielenia przez zero.</p>
+
+        <details class="quote">
+          <summary>Source code in <code>pythoncheck\pythoncheck.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">divide</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Dzieli pierwszą liczbę przez drugą.</span>
+
+<span class="sd">    :param x: Liczba dzielona.</span>
+<span class="sd">    :param y: Liczba dzieląca (nie może być zero).</span>
+<span class="sd">    :return: Wynik dzielenia.</span>
+<span class="sd">    :raise ValueError: Wyjątek w przypadku próby dzielenia przez zero.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">if</span> <span class="n">y</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Nie można dzielić przez zero.&quot;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">/</span> <span class="n">y</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="pythoncheck.pythoncheck.Calculator.multiply" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">multiply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span></code>
+
+
+<a href="#pythoncheck.pythoncheck.Calculator.multiply" class="headerlink" title="Permanent link">&para;</a></h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Mnoży dwie liczby.</p>
+<p>:param x: Pierwsza liczba.
+:param y: Druga liczba.
+:return: Wynik mnożenia.</p>
+
+        <details class="quote">
+          <summary>Source code in <code>pythoncheck\pythoncheck.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">multiply</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Mnoży dwie liczby.</span>
+
+<span class="sd">    :param x: Pierwsza liczba.</span>
+<span class="sd">    :param y: Druga liczba.</span>
+<span class="sd">    :return: Wynik mnożenia.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+  <div class="doc doc-object doc-method">
+
+
+
+<h3 id="pythoncheck.pythoncheck.Calculator.subtract" class="doc doc-heading">
+<code class="highlight language-python"><span class="n">subtract</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span></code>
+
+
+<a href="#pythoncheck.pythoncheck.Calculator.subtract" class="headerlink" title="Permanent link">&para;</a></h3>
+
+    <div class="doc doc-contents ">
+
+      <p>Odejmuje drugą liczbę od pierwszej.</p>
+<p>:param x: Pierwsza liczba.
+:param y: Druga liczba.
+:return: Wynik odejmowania.</p>
+
+        <details class="quote">
+          <summary>Source code in <code>pythoncheck\pythoncheck.py</code></summary>
+          <div class="highlight"><pre><span></span><code><span class="k">def</span> <span class="nf">subtract</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Odejmuje drugą liczbę od pierwszej.</span>
+
+<span class="sd">    :param x: Pierwsza liczba.</span>
+<span class="sd">    :param y: Druga liczba.</span>
+<span class="sd">    :return: Wynik odejmowania.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">-</span> <span class="n">y</span>
+</code></pre></div>
+        </details>
+    </div>
+
+  </div>
+
+
+
+
+
+  </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  </div>
 
     </div>
 
